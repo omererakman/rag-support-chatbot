@@ -1,0 +1,415 @@
+HR SaaS Platform - Frequently Asked Questions
+
+Welcome to our comprehensive FAQ guide. This document covers common questions about our HR SaaS platform, including policies, features, procedures, and account management.
+
+ACCOUNT MANAGEMENT
+
+How do I create an account?
+To create an account, visit our website and click on the "Sign Up" button. You'll need to provide your company email address, company name, and create a secure password. After registration, you'll receive a verification email. Click the link in the email to activate your account. Once activated, you can log in and start using the platform.
+
+How do I reset my password?
+If you've forgotten your password, click on the "Forgot Password" link on the login page. Enter your registered email address, and we'll send you a password reset link. Click the link in the email and follow the instructions to create a new password. The reset link expires after 24 hours for security reasons. If you don't receive the email, check your spam folder or contact support.
+
+Can I change my email address?
+Yes, you can change your email address from the Account Settings page. Navigate to Settings > Account > Email Address. Enter your new email address and your current password for verification. We'll send a confirmation email to your new address. Click the confirmation link to complete the change. Note that your old email address will no longer be valid for login after the change is confirmed.
+
+How do I delete my account?
+To delete your account, go to Settings > Account > Delete Account. You'll be asked to confirm your password and provide a reason for deletion. Account deletion is permanent and cannot be undone. All your data will be permanently deleted within 30 days. If you have an active subscription, cancellation will be processed immediately, but no refunds will be issued for the current billing period.
+
+Can I have multiple administrators?
+Yes, you can add multiple administrators to your account. Go to Settings > Users > Administrators and click "Add Administrator." Each administrator can have different permission levels, allowing you to control what each person can access and modify. You can assign roles such as Super Admin, HR Admin, Payroll Admin, or Read-Only Admin. All administrative actions are logged for audit purposes.
+
+How do I manage user roles and permissions?
+User roles and permissions can be managed from Settings > Security > Roles & Permissions. You can create custom roles with specific permissions for different departments or job functions. Permissions can be set at a granular level, controlling access to employee data, payroll information, reports, and administrative functions. Changes to permissions take effect immediately for all users assigned to that role.
+
+What is two-factor authentication?
+Two-factor authentication (2FA) adds an extra layer of security to your account. When enabled, you'll need to provide both your password and a verification code from an authenticator app or SMS when logging in. To enable 2FA, go to Settings > Security > Two-Factor Authentication and follow the setup instructions. We recommend enabling 2FA for all administrative accounts to protect sensitive HR data.
+
+BILLING AND SUBSCRIPTIONS
+
+What are your pricing plans?
+We offer three main pricing tiers: Starter, Professional, and Enterprise. The Starter plan is $29 per month and includes up to 10 employees, basic HR features, and email support. The Professional plan is $79 per month and includes up to 50 employees, advanced features, priority support, and API access. The Enterprise plan is custom-priced and includes unlimited employees, all features, dedicated support, and custom integrations. All plans include a 14-day free trial with no credit card required.
+
+How does billing work?
+Billing occurs monthly or annually, depending on your subscription plan. Monthly plans are billed on the same date each month that you signed up. Annual plans are billed once per year and offer a 20% discount compared to monthly billing. We accept all major credit cards and ACH transfers for Enterprise customers. Invoices are automatically generated and sent to your registered email address.
+
+What is your refund policy?
+We offer a 30-day money-back guarantee for new subscriptions. If you're not satisfied with our service within the first 30 days, contact our support team with your order number and reason for the refund request. Refunds are processed within 5-7 business days and will appear on your original payment method. After 30 days, refunds are not available, but you can cancel your subscription at any time. Cancelled subscriptions remain active until the end of the current billing period.
+
+Can I upgrade or downgrade my plan?
+Yes, you can change your plan at any time from the Billing page in Settings. Upgrades take effect immediately, and you'll be charged a prorated amount for the remainder of the billing cycle. Downgrades take effect at the start of your next billing cycle. If you downgrade, you may lose access to certain features, so please review the plan differences before making changes.
+
+What happens if my payment fails?
+If a payment fails, we'll send you an email notification and attempt to charge your card again after 3 days. You'll have a 7-day grace period to update your payment method. During this time, your account will remain active. If payment is not resolved after 7 days, your account will be suspended, and you'll lose access to all features. To reactivate, simply update your payment method and the account will be restored immediately.
+
+Can I pay annually instead of monthly?
+Yes, annual billing is available for all plans and offers a 20% discount compared to monthly billing. To switch to annual billing, go to Settings > Billing > Subscription and select "Annual Billing." Your next payment will be for the full year, and you'll be billed annually going forward. You can switch back to monthly billing at any time, but the change will take effect at the start of your next billing cycle.
+
+Do you offer volume discounts?
+Yes, we offer volume discounts for companies with large employee counts. Discounts are automatically applied based on the number of employees in your account. Enterprise customers can negotiate custom pricing based on their specific needs, including multi-year contracts and additional discounts. Contact our sales team at sales@hrsaasplatform.com to discuss volume pricing options.
+
+How do I update my payment method?
+To update your payment method, go to Settings > Billing > Payment Methods. Click "Add Payment Method" to add a new card or bank account. You can set the new payment method as your default, and it will be used for all future charges. You can also remove old payment methods that are no longer in use. Changes take effect immediately for future billing cycles.
+
+EMPLOYEE MANAGEMENT
+
+How do I add employees to the system?
+To add employees, navigate to the Employees section and click "Add Employee." Fill in the required information including name, email, job title, department, and start date. You can add employees individually or use our bulk import feature to upload multiple employees via CSV file. Each employee will receive an invitation email to set up their profile and password. Employees can be added at any time, and their access begins immediately upon invitation acceptance.
+
+How do I remove an employee?
+To remove an employee, go to the Employees section, select the employee, and click "Remove Employee." You'll be asked to specify a removal date and reason. The employee's access will be revoked on the specified date, but their historical data will be retained for compliance purposes. You can also archive employees instead of removing them, which preserves all data but removes active access.
+
+Can I customize employee fields?
+Yes, our platform allows extensive customization of employee fields. Go to Settings > Employee Fields to add custom fields, modify existing ones, or change field types. You can create text fields, dropdown menus, date fields, number fields, and more. Custom fields are available throughout the platform and can be used in reports, filters, and integrations. Enterprise customers can also create conditional fields that appear based on employee attributes.
+
+How does time tracking work?
+Our time tracking feature allows employees to clock in and out, track breaks, and log hours worked. Employees can use the web interface or mobile app to record their time. Managers can approve or reject time entries, and the system automatically calculates overtime based on your company's policies. Time tracking data integrates with payroll processing and can be exported for accounting purposes. You can set up geofencing to ensure employees clock in from approved locations.
+
+How do I bulk import employees?
+Bulk import is available from the Employees section. Click "Import Employees" and download our CSV template. Fill in the required fields for all employees you want to import, then upload the completed file. The system will validate the data and show you any errors before importing. You can import up to 1,000 employees at once. Each imported employee will receive an invitation email to complete their profile setup.
+
+Can employees update their own information?
+Yes, employees can update certain information in their profile through the Employee Self-Service portal. They can update contact information, emergency contacts, tax withholding preferences, and direct deposit information. Administrative fields like job title, department, and salary are restricted to administrators. You can control which fields employees can edit from Settings > Employee Fields > Self-Service Permissions.
+
+How do I handle employee transfers between departments?
+To transfer an employee between departments, go to the employee's profile and click "Edit." Change the department field and specify an effective date. The system will automatically update the employee's reporting structure, access permissions, and department-specific settings. Historical data will be preserved, and you can view department history in the employee's profile. Notifications will be sent to relevant managers and the employee.
+
+What information is required for each employee?
+Required information includes full name, email address, job title, department, employment start date, and employment status. Additional recommended fields include phone number, address, date of birth, social security number (for payroll), and emergency contact information. You can mark fields as required or optional from Settings > Employee Fields. Some fields may be required for compliance or payroll processing.
+
+How do I handle employee status changes?
+Employee status changes (active, on leave, terminated, etc.) can be updated from the employee's profile. Select the new status and specify an effective date. Status changes trigger automatic workflows, such as disabling access for terminated employees or adjusting benefits for employees on leave. Status history is maintained for compliance and reporting purposes. You can also set up automated status changes based on dates or other criteria.
+
+ONBOARDING AND OFFBOARDING
+
+How does the onboarding process work?
+Our onboarding system allows you to create customizable onboarding checklists for new employees. When you add a new employee, you can assign them to an onboarding template that includes tasks like completing paperwork, setting up equipment, attending orientation, and meeting with team members. Tasks can be assigned to the new employee, their manager, HR, or other team members. Progress is tracked automatically, and reminders are sent for incomplete tasks.
+
+What documents can new employees complete online?
+New employees can complete I-9 forms, W-4 tax forms, direct deposit authorization, emergency contact forms, benefits enrollment, company policy acknowledgments, and custom forms you create. All documents are stored securely and can be signed electronically. Completed forms are automatically routed to the appropriate departments for processing. You can customize which documents are required for each role or department.
+
+How do I create onboarding checklists?
+Onboarding checklists can be created from Settings > Onboarding > Checklists. You can create different checklists for different roles, departments, or employment types. Each checklist can include tasks with due dates, assigned users, and required documents. Tasks can be sequential (one after another) or parallel (all at once). You can also create templates that can be reused for multiple employees.
+
+What happens during employee offboarding?
+The offboarding process includes tasks like collecting company equipment, revoking system access, conducting exit interviews, processing final pay, and updating records. You can create customizable offboarding checklists similar to onboarding. The system automatically schedules access revocation, finalizes time tracking, and processes final payroll. Exit interview responses can be collected and analyzed for insights.
+
+Can I automate onboarding tasks?
+Yes, many onboarding tasks can be automated. You can set up automatic email notifications, document generation, access provisioning, and task assignments based on triggers like employee start date or department. Workflow automation is available for Professional and Enterprise plans. You can create custom workflows using our workflow builder or request custom automation through our support team.
+
+How do I track onboarding progress?
+Onboarding progress is visible in the employee's profile and in the Onboarding dashboard. You can see which tasks are completed, pending, or overdue. Managers and HR administrators receive notifications for tasks assigned to them. The dashboard provides an overview of all employees currently in onboarding, with filters for department, role, or start date.
+
+LEAVE MANAGEMENT
+
+What is the difference between PTO and sick leave?
+PTO (Paid Time Off) is a combined pool of time off that employees can use for any purpose, including vacation, personal days, or illness. Sick leave is specifically designated for illness and medical appointments. You can configure your company to use either system or both. PTO offers more flexibility but less tracking of specific absence types. Sick leave provides better visibility into health-related absences and may be required by local regulations.
+
+How do employees request time off?
+Employees can request time off through the web platform or mobile app. They select the type of leave (PTO, sick leave, etc.), enter the dates, and optionally add a reason or comments. The request is automatically routed to their manager for approval based on your approval workflow. Employees receive notifications when their request is approved or denied. Managers can approve, deny, or request more information about the request.
+
+How do I set up leave policies?
+Leave policies can be configured from Settings > Leave Management > Policies. You can create different policies for different employee groups based on tenure, role, or department. Policies define accrual rates, maximum balances, carryover rules, and blackout dates. You can set up policies for PTO, sick leave, personal days, floating holidays, and other leave types. Policies can be automatically applied based on employee attributes.
+
+What is leave accrual?
+Leave accrual is how employees earn time off over time. You can set up accrual to occur daily, weekly, bi-weekly, or monthly. Accrual rates can vary based on tenure, with employees earning more time off as they stay longer. The system automatically calculates and updates leave balances based on your accrual policies. You can also grant one-time leave bonuses or adjustments manually.
+
+How do I handle leave carryover?
+Leave carryover policies determine how much unused leave employees can carry into the next year. You can set maximum carryover amounts, expiration dates, and whether employees must use or lose their leave. Carryover is automatically calculated at year-end based on your policies. Employees receive notifications about their carryover balances and any leave that will expire.
+
+Can employees see their leave balance?
+Yes, employees can view their current leave balances, accrual rates, and leave history through the Employee Self-Service portal or mobile app. They can see how much leave they've used, how much they have available, and when they'll accrue more. Managers can also view their team's leave balances to help with planning and scheduling.
+
+How do I approve or deny leave requests?
+Managers receive notifications when employees request time off. They can approve or deny requests from the Leave Management dashboard, email notifications, or mobile app. When reviewing requests, managers can see the employee's current balance, team calendar, and any conflicts. Approvals can be set to require multiple levels of approval for certain types of leave or longer durations.
+
+What happens if an employee exceeds their leave balance?
+If an employee requests more leave than they have available, the system will flag the request as exceeding balance. You can configure whether to allow negative balances, require manager override, or automatically deny such requests. Some companies allow employees to take unpaid leave or borrow against future accruals. The system tracks all leave taken, including negative balances.
+
+PAYROLL PROCESSING
+
+How do I set up payroll?
+Payroll setup requires several steps. First, configure your pay periods (weekly, bi-weekly, monthly) in Settings > Payroll. Add your company's tax information, including EIN and state tax IDs. Set up pay rates for each employee or job role. Configure deductions for benefits, retirement plans, or other withholdings. Finally, connect your bank account for direct deposit. Our system supports multiple pay schedules and can handle complex scenarios like bonuses, commissions, and overtime. Once configured, payroll can be processed with a few clicks.
+
+How do I process payroll?
+To process payroll, go to Payroll > Process Payroll and select the pay period. The system will calculate gross pay, taxes, deductions, and net pay for all employees. Review the payroll summary, make any necessary adjustments, and approve the payroll. Once approved, direct deposits are initiated and pay stubs are generated. Employees receive email notifications when their pay stubs are available. The entire process typically takes just a few minutes.
+
+What taxes are calculated automatically?
+Our system automatically calculates federal income tax, Social Security, Medicare, state income tax (where applicable), and local taxes based on employee locations and tax settings. Tax calculations are updated regularly to reflect current tax rates and regulations. You can review tax calculations before processing payroll and make manual adjustments if needed. Year-end tax forms (W-2s, 1099s) are generated automatically.
+
+How do I handle bonuses and commissions?
+Bonuses and commissions can be added to any payroll run. Go to the employee's payroll record and click "Add Adjustment." Select the type (bonus, commission, etc.), enter the amount, and specify whether it's subject to taxes. The system will automatically calculate taxes on bonuses and commissions according to IRS guidelines. You can also set up recurring bonuses or commissions that are automatically included in each payroll.
+
+Can I process payroll for multiple pay schedules?
+Yes, you can run payroll for different pay schedules simultaneously. For example, if you have salaried employees paid monthly and hourly employees paid bi-weekly, you can process both payrolls in the same session. Each pay schedule is processed independently, and you can review and approve them separately. The system tracks all payroll runs and maintains separate records for each schedule.
+
+How do I handle payroll corrections?
+If you need to correct a payroll error, go to Payroll > Payroll History and select the payroll run that needs correction. Click "Create Correction" and make the necessary adjustments. Corrections can include adjusting hours, pay rates, deductions, or taxes. Once the correction is processed, employees will receive updated pay stubs, and the system will automatically adjust future payrolls if needed. Corrections are tracked for audit purposes.
+
+What payment methods are supported?
+We support direct deposit to bank accounts, paper checks, and pay cards. Direct deposit is the fastest and most secure method. Employees can split their pay across multiple accounts. Paper checks can be printed or ordered through our check printing service. Pay cards are available for employees who don't have bank accounts. You can configure which payment methods are available for your company.
+
+How are year-end tax forms generated?
+Year-end tax forms (W-2s for employees, 1099s for contractors) are automatically generated based on payroll data. Forms are available in January for the previous year. Employees can access their forms electronically through the Employee Self-Service portal, or you can print and mail them. Forms are also filed electronically with the IRS and state tax agencies where required. You can review all forms before they're distributed or filed.
+
+BENEFITS ADMINISTRATION
+
+How do I set up employee benefits?
+Benefits can be configured from Settings > Benefits > Plans. You can create benefit plans for health insurance, dental, vision, life insurance, retirement plans, and more. For each plan, specify eligibility requirements, enrollment periods, contribution amounts, and coverage details. Benefits can be assigned automatically based on employee attributes or made available for employees to choose during open enrollment.
+
+How does open enrollment work?
+Open enrollment periods can be scheduled from Settings > Benefits > Open Enrollment. During open enrollment, employees can review available plans, compare options, and make selections. The system guides employees through the enrollment process and validates eligibility. Managers and HR can track enrollment progress and send reminders to employees who haven't completed enrollment. Changes take effect on the specified effective date.
+
+Can employees change their benefits outside of open enrollment?
+Generally, benefit changes are only allowed during open enrollment or qualifying life events (marriage, birth of a child, loss of coverage, etc.). When employees report a qualifying life event, they have a limited time window to make changes. The system tracks life events and automatically opens enrollment windows when appropriate. You can configure which events qualify for mid-year changes.
+
+How do I handle benefits deductions?
+Benefits deductions are automatically calculated and included in payroll processing. Deductions can be pre-tax (reducing taxable income) or post-tax. The system calculates the correct deduction amounts based on plan selections and pay frequency. Deductions are shown on pay stubs, and you can run reports to track total benefit costs and employee contributions.
+
+What benefits reporting is available?
+Benefits reports include enrollment summaries, cost analysis, participation rates, and compliance reports. You can generate reports for specific plans, employee groups, or time periods. Reports can be exported to Excel or PDF for further analysis or sharing with insurance carriers. Enterprise customers can create custom reports using our reporting tools or API.
+
+How do I manage COBRA administration?
+COBRA administration is available for companies subject to COBRA requirements. When an employee loses coverage due to a qualifying event, the system automatically generates COBRA notices and tracks enrollment. COBRA participants can make premium payments through the platform, and you can track payment history and coverage periods. Compliance reports help ensure you meet all COBRA requirements.
+
+RECRUITMENT AND HIRING
+
+How do I post job openings?
+Job postings can be created from the Recruitment section. Click "Post Job" and fill in the job details including title, description, requirements, location, and salary range. You can post jobs to your company career page, job boards, and social media platforms. The system tracks applications and provides analytics on posting performance. You can also create job templates for frequently posted positions.
+
+How do I manage job applications?
+Applications are automatically collected and organized in the Recruitment dashboard. Each application includes the candidate's resume, cover letter, and answers to screening questions. You can review applications, move candidates through hiring stages (screening, interview, offer, etc.), and collaborate with your team. The system sends automated emails to candidates to keep them informed of their application status.
+
+Can I schedule interviews through the platform?
+Yes, the interview scheduling feature allows you to coordinate interviews with candidates and interviewers. You can send calendar invitations, book conference rooms, and set up video interviews. The system checks availability and sends reminders to all participants. Interview feedback can be collected directly in the platform, and you can compare candidates side-by-side.
+
+How do I create offer letters?
+Offer letters can be generated from the candidate's profile. Select an offer letter template, fill in the details (salary, start date, benefits, etc.), and send it to the candidate electronically. Candidates can review and sign the offer letter online. Once signed, the offer letter is stored in the candidate's file and can be used to automatically create the employee record when they start.
+
+What is the applicant tracking system?
+Our applicant tracking system (ATS) helps you manage the entire hiring process from posting jobs to onboarding new hires. It includes features for resume parsing, candidate scoring, interview scheduling, background checks, and offer management. The ATS integrates with job boards and can help you build a talent pipeline for future openings.
+
+How do I conduct background checks?
+Background checks can be initiated from a candidate's profile. We integrate with leading background check providers. Select the type of check needed (criminal, employment verification, education verification, etc.) and submit the request. Results are automatically added to the candidate's file. You can configure which checks are required for different roles.
+
+PERFORMANCE MANAGEMENT
+
+How does the performance review system work?
+Our performance review system allows you to create customizable review templates with goals, competencies, and rating scales. You can schedule reviews on a regular basis (quarterly, semi-annually, annually) or conduct them on-demand. Reviews can be self-assessments, manager reviews, peer reviews, or 360-degree feedback. The system tracks review history, goal progress, and provides analytics on performance trends. Reviews can be linked to compensation decisions and career development plans.
+
+How do I set up performance goals?
+Goals can be created from the Performance Management section. Goals can be set at the company, department, team, or individual level. You can create SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) and track progress over time. Goals can be linked to performance reviews and compensation. Employees and managers can update goal progress, and the system sends reminders for goal check-ins.
+
+What types of performance reviews are supported?
+We support various review types including annual reviews, quarterly check-ins, project-based reviews, and continuous feedback. Review formats can include rating scales, written feedback, goal assessments, and competency evaluations. You can create custom review templates for different roles or departments. Reviews can be anonymous (for peer reviews) or visible to all participants.
+
+How do I track employee development?
+Employee development is tracked through the Performance Management system. You can create development plans, track training completion, set career goals, and monitor skill development. Development activities can be linked to performance reviews and succession planning. Employees can request development opportunities, and managers can assign training or mentorship programs.
+
+Can I conduct 360-degree feedback reviews?
+Yes, 360-degree feedback reviews allow employees to receive feedback from managers, peers, direct reports, and other stakeholders. You can configure who provides feedback for each review cycle. Feedback can be anonymous or attributed, depending on your preferences. The system compiles all feedback and provides comprehensive reports showing strengths, areas for improvement, and development opportunities.
+
+How are performance reviews linked to compensation?
+Performance reviews can be linked to compensation decisions through the Compensation Management module. Review ratings and feedback can inform salary increases, bonuses, and promotions. The system maintains a history of performance ratings and compensation changes, allowing you to analyze the relationship between performance and compensation over time.
+
+REPORTING AND ANALYTICS
+
+What reports are available?
+We offer a comprehensive library of pre-built reports covering employee data, payroll, time tracking, benefits, performance, recruitment, and compliance. Reports can be filtered by date range, department, employee group, or custom criteria. Common reports include headcount reports, turnover analysis, payroll summaries, time and attendance reports, benefits enrollment, and performance metrics.
+
+Can I create custom reports?
+Yes, custom reports can be created using our report builder. You can select which fields to include, apply filters, group data, and format the output. Custom reports can be saved and shared with other users. Enterprise customers can also create reports using SQL queries or our API for more advanced reporting needs. Reports can be scheduled to run automatically and be emailed to recipients.
+
+How do I export data?
+Data can be exported from any report or directly from data tables. Export formats include CSV, Excel, PDF, and JSON. Large exports may take some time to process, and you'll receive an email notification when ready. You can schedule regular exports to be delivered automatically. Enterprise customers can use our API for real-time data access and integration with other systems.
+
+What analytics dashboards are available?
+Analytics dashboards provide visual insights into key HR metrics. Dashboards include headcount trends, turnover rates, payroll costs, time and attendance patterns, benefits utilization, performance distributions, and recruitment metrics. Dashboards can be customized to show the metrics most relevant to your role. Data is updated in real-time, and you can drill down into details from any chart or graph.
+
+How do I track key HR metrics?
+Key HR metrics are automatically calculated and displayed on the Analytics dashboard. Metrics include headcount, turnover rate, time to hire, cost per hire, average tenure, absence rate, and many more. You can compare metrics over time, across departments, or against industry benchmarks. Alerts can be set up to notify you when metrics exceed thresholds.
+
+Can I share reports with external stakeholders?
+Yes, reports can be shared via email, secure links, or exported files. You can control who has access to which reports and set expiration dates for shared links. Reports shared externally can be branded with your company logo and customized formatting. Audit logs track who accessed which reports and when.
+
+INTEGRATIONS
+
+Can I integrate with other software?
+Yes, we offer integrations with popular HR, accounting, and productivity tools. Available integrations include QuickBooks, Xero, Slack, Microsoft Teams, Google Workspace, and many more. You can access integrations from Settings > Integrations. Most integrations use secure API connections and require authentication. Enterprise customers can also request custom integrations through our API or with assistance from our technical team.
+
+What accounting software can I integrate with?
+We integrate with major accounting platforms including QuickBooks Online, QuickBooks Desktop, Xero, Sage, NetSuite, and FreshBooks. Payroll data, employee expenses, and benefits costs can be automatically synced to your accounting system. The integration reduces manual data entry and ensures accuracy between systems. Setup typically takes 15-30 minutes and requires authentication with your accounting software.
+
+How do I integrate with Slack or Microsoft Teams?
+Slack and Teams integrations allow you to receive notifications, approve requests, and access HR information directly from your messaging platform. Employees can request time off, check leave balances, and receive updates without leaving Slack or Teams. Managers can approve requests and view team calendars. Setup involves installing our app from the Slack App Directory or Teams App Store and connecting your account.
+
+Can I integrate with job boards?
+Yes, we integrate with major job boards including Indeed, LinkedIn, Glassdoor, ZipRecruiter, and Monster. When you post a job in our system, it can automatically be posted to your connected job boards. Applications from all sources are collected in one place, and you can track which job boards generate the most qualified candidates.
+
+What API access is available?
+API access is included with Professional and Enterprise plans. Our REST API allows you to read and write employee data, process payroll, manage time tracking, and access reports programmatically. API documentation is available in our Developer Portal, and we provide code samples in multiple programming languages. API keys can be generated from Settings > Integrations > API Access.
+
+How do I set up a custom integration?
+Custom integrations can be built using our API or with assistance from our technical team. Enterprise customers can work with our integration specialists to design and implement custom integrations tailored to their specific needs. We also support webhooks for real-time event notifications. Contact our support team to discuss your integration requirements.
+
+MOBILE APP
+
+Do you have a mobile app?
+Yes, we offer native mobile apps for iOS and Android. The mobile app includes core features like time tracking, PTO requests, employee directory, and notifications. Some administrative features are only available on the web platform. The mobile app is free to download and use with any subscription plan. Push notifications keep employees informed of important updates and approvals.
+
+What can employees do on the mobile app?
+Employees can clock in and out, request time off, view their schedule, check leave balances, access the employee directory, view pay stubs, update their profile, receive notifications, and submit expenses. The app works offline for time tracking, syncing data when connectivity is restored. Biometric authentication (fingerprint or face ID) is supported for secure access.
+
+What can managers do on the mobile app?
+Managers can approve or deny time-off requests, view team calendars, check team leave balances, review time entries, access employee profiles, and receive push notifications for approvals and important updates. Some advanced features like payroll processing and detailed reporting are only available on the web platform.
+
+How do I download the mobile app?
+The mobile app is available for free download from the Apple App Store (iOS) and Google Play Store (Android). Search for "HR SaaS Platform" or use the download links provided in your account. Employees will need to log in with their account credentials. Single sign-on (SSO) is supported for companies using SSO authentication.
+
+Are there any mobile app limitations?
+The mobile app focuses on the most commonly used features for day-to-day operations. Advanced administrative functions, complex reporting, and detailed configuration are available on the web platform. Some features may have simplified interfaces on mobile, but all core functionality is fully supported. We regularly update the app with new features based on user feedback.
+
+SECURITY AND COMPLIANCE
+
+How secure is my data?
+We take security seriously and use industry-standard encryption for data in transit and at rest. All data is encrypted using AES-256 encryption. We conduct regular security audits and penetration testing. Our infrastructure is hosted on AWS with SOC 2 Type II certification. We maintain compliance with GDPR, CCPA, and other data protection regulations. Access to data is logged and monitored, and we use multi-factor authentication for administrative accounts.
+
+What compliance standards do you meet?
+We are compliant with SOC 2 Type II, GDPR, CCPA, HIPAA (for healthcare customers), and various state and federal employment regulations. Our platform includes built-in compliance features for I-9 verification, EEO reporting, and labor law compliance. We regularly update our systems to meet changing regulatory requirements. Enterprise customers can request additional compliance certifications or audits as needed.
+
+How do I export my data?
+You can export your data at any time from Settings > Data Export. Available exports include employee data, payroll records, time tracking data, performance reviews, and more. Exports are provided in CSV or JSON format. Large exports may take some time to process, and you'll receive an email notification when your export is ready. Enterprise customers can schedule automated exports or use our API for real-time data access.
+
+Can I set up single sign-on (SSO)?
+Yes, SSO is available for Professional and Enterprise plans. We support SAML 2.0, OAuth 2.0, and OpenID Connect protocols. Popular identity providers include Okta, Azure AD, Google Workspace, and OneLogin. To set up SSO, go to Settings > Security > Single Sign-On and follow the configuration wizard. SSO setup typically takes 15-30 minutes and requires coordination with your IT team. Once configured, employees can log in using their existing corporate credentials.
+
+What data backup and recovery procedures are in place?
+We perform automated daily backups of all data, with backups retained for 90 days. Data is stored in multiple geographically distributed data centers for redundancy. In the event of data loss, we can restore data from backups. Recovery time objectives (RTO) and recovery point objectives (RPO) are documented in our SLA. Enterprise customers can request custom backup and retention policies.
+
+How is employee data protected?
+Employee data is protected through multiple layers of security including encryption, access controls, audit logging, and regular security assessments. Access to sensitive data requires appropriate permissions, and all access is logged. We comply with data protection regulations and provide tools for data subject access requests (DSARs) under GDPR and similar regulations.
+
+What happens to data when I cancel my subscription?
+When you cancel your subscription, your account enters a grace period during which you can export all your data. After the grace period, your account is deactivated, but data is retained for 90 days in case you want to reactivate. After 90 days, data is permanently deleted according to our data retention policy. You can request immediate data deletion if needed.
+
+DOCUMENT MANAGEMENT
+
+How do I store employee documents?
+Employee documents can be uploaded and stored in each employee's profile. Supported file types include PDF, Word, Excel, images, and more. Documents are organized by category (contracts, certifications, performance reviews, etc.) and can be tagged for easy searching. Documents are encrypted and access-controlled based on user permissions. You can set retention policies for different document types.
+
+What types of documents can I store?
+You can store any type of employee-related document including employment contracts, offer letters, performance reviews, certifications, training records, disciplinary actions, I-9 forms, W-4 forms, benefits enrollment forms, and custom documents. Documents can be required (must be uploaded) or optional. Required documents trigger reminders if they're missing or expired.
+
+How do employees access their documents?
+Employees can access their own documents through the Employee Self-Service portal. They can view, download, and in some cases, upload documents. Access to sensitive documents like performance reviews or disciplinary actions is restricted to authorized personnel only. Employees receive notifications when new documents are added to their file.
+
+Can I set document expiration dates?
+Yes, you can set expiration dates for documents like certifications, licenses, or training records. The system will send reminders before documents expire and notify you when they've expired. You can configure reminder schedules (e.g., 30 days before expiration, 7 days before, on expiration date). Expired documents are flagged but remain accessible for historical purposes.
+
+How do I ensure document compliance?
+The platform includes compliance features to help ensure required documents are collected and maintained. You can set up document requirements by role or department, track completion status, and generate compliance reports. The system flags missing or expired documents and can prevent certain actions (like payroll processing) if required documents are missing.
+
+NOTIFICATIONS AND ALERTS
+
+How do notifications work?
+Notifications keep you informed of important events and actions in the platform. You can receive notifications via email, in-app notifications, SMS (for urgent items), and push notifications on mobile devices. Notification preferences can be customized for each user, allowing you to control what you're notified about and how you receive notifications.
+
+What can I be notified about?
+You can receive notifications for time-off requests, payroll processing, performance reviews, document expirations, employee anniversaries, compliance deadlines, system updates, and custom events. Notification settings allow you to choose which events trigger notifications and the delivery method. You can also set up notification rules based on your role or responsibilities.
+
+Can I customize notification settings?
+Yes, notification settings can be customized from Settings > Notifications. You can enable or disable notifications for specific events, choose delivery methods (email, SMS, push), set quiet hours, and configure notification frequency. Different notification rules can be set for different types of events. Enterprise administrators can set default notification policies for the organization.
+
+How do I set up alerts?
+Alerts can be configured from Settings > Alerts. You can create alerts for specific conditions like low leave balances, approaching compliance deadlines, payroll errors, or custom metrics. Alerts can be sent to specific users or groups and can be configured to trigger only when certain conditions are met. Alert history is maintained for audit purposes.
+
+TECHNICAL REQUIREMENTS
+
+What browsers are supported?
+We support the latest versions of Chrome, Firefox, Safari, and Edge. For the best experience, we recommend using Chrome or Firefox. Internet Explorer is not supported. Our platform is responsive and works on tablets and mobile devices through our mobile app or mobile-optimized web interface. Some advanced features may have limited functionality on mobile browsers.
+
+What are the system requirements?
+Our platform is cloud-based and requires only an internet connection and a modern web browser. There are no software installations required. We recommend a minimum internet speed of 1 Mbps for optimal performance. For large companies with many concurrent users, faster internet speeds may be necessary. The platform automatically scales to handle your company's usage, so no server management is required on your end.
+
+What is your uptime guarantee?
+We guarantee 99.9% uptime for all plans, with Enterprise customers receiving a 99.95% uptime SLA. Scheduled maintenance is performed during off-peak hours and announced in advance. In the event of downtime, we provide status updates through our status page and email notifications. Uptime statistics are publicly available on our status page.
+
+How do I report technical issues?
+Technical issues can be reported through the Help Center in the application, by emailing support@hrsaasplatform.com, or by calling our support line. For urgent issues affecting multiple users, Enterprise customers can use the priority support line. When reporting issues, please include details about what you were doing, error messages, browser information, and screenshots if possible.
+
+What happens during system updates?
+System updates are deployed regularly to add new features, fix bugs, and improve performance. Most updates happen automatically without any action required from you. Major updates that affect functionality are announced in advance through email and in-app notifications. We maintain backward compatibility for APIs, and breaking changes are communicated well in advance.
+
+DATA MIGRATION
+
+How do I migrate data from another HR system?
+Data migration can be done through our import tools or with assistance from our implementation team. We provide CSV templates for bulk imports of employees, payroll data, and other information. For complex migrations, our team can work with you to map data from your old system and ensure a smooth transition. Migration services are included with Enterprise plans or available as a paid service for other plans.
+
+What data can be migrated?
+Most employee data can be migrated including employee profiles, employment history, payroll records, time tracking data, benefits enrollment, performance reviews, and documents. The specific data that can be migrated depends on your previous system and our import capabilities. We can work with you to determine what can be migrated and what may need to be entered manually.
+
+How long does data migration take?
+Migration time depends on the amount of data and complexity of your previous system. Simple migrations with a few employees can be completed in a day, while complex migrations with thousands of employees and years of historical data may take several weeks. We'll provide a timeline estimate after reviewing your data and requirements.
+
+Is there a cost for data migration?
+Data migration assistance is included with Enterprise plans. For Starter and Professional plans, basic migration tools and templates are provided at no cost. If you need extensive assistance with complex migrations, migration services are available for an additional fee. Contact our sales team to discuss your migration needs and pricing.
+
+MULTI-LOCATION SUPPORT
+
+Can I manage multiple locations?
+Yes, the platform supports multiple locations, branches, or offices. Each location can have its own settings for pay rates, policies, schedules, and reporting. Employees can be assigned to specific locations, and you can run reports by location or across all locations. Location-based features help ensure compliance with local regulations and policies.
+
+How do I set up multiple locations?
+Locations can be added from Settings > Company > Locations. For each location, specify the address, time zone, local policies, and any location-specific settings. Employees can be assigned to locations individually or in bulk. Location data is used for time tracking, payroll processing, compliance reporting, and organizational reporting.
+
+Can employees work at multiple locations?
+Yes, employees can be assigned to multiple locations or transfer between locations. Time tracking can record which location an employee worked at, and payroll can handle location-specific pay rates. Location history is maintained for reporting and compliance purposes. You can also set up location-based access controls and permissions.
+
+How do location-specific policies work?
+Each location can have its own policies for pay rates, overtime rules, break requirements, and other employment policies. When processing payroll or time tracking, the system applies the policies for the location where work was performed. This is especially important for companies operating in multiple states or countries with different labor laws.
+
+SUPPORT AND HELP
+
+What are your business hours?
+Our customer support team is available Monday through Friday, 9 AM to 6 PM Eastern Time. We also offer limited support on weekends from 10 AM to 4 PM Eastern Time. Enterprise customers have access to 24/7 priority support via phone, email, or live chat. For urgent issues outside business hours, Enterprise customers can use our emergency support line. Response times vary by plan: Starter (24-48 hours), Professional (4-8 hours), Enterprise (1-2 hours).
+
+How do I contact support?
+You can contact support through multiple channels. Email us at support@hrsaasplatform.com, use the live chat feature in the application (available during business hours), or call our support line at 1-800-HR-SUPPORT. For technical issues, you can also submit a ticket through the Help Center in the application. Include as much detail as possible, including screenshots and error messages, to help us resolve your issue quickly.
+
+Do you offer training?
+Yes, we offer comprehensive training resources. New customers receive onboarding sessions with our implementation team. We provide video tutorials, written guides, and webinars covering all platform features. Enterprise customers receive dedicated training sessions tailored to their specific needs. Our Help Center contains hundreds of articles and FAQs. You can also schedule one-on-one training sessions with our support team for an additional fee.
+
+What training resources are available?
+Training resources include video tutorials, step-by-step guides, interactive webinars, recorded training sessions, a comprehensive Help Center with searchable articles, and one-on-one training sessions. Training materials are organized by topic and user role, making it easy to find relevant information. New features are covered in update webinars and release notes.
+
+Can I get help with implementation?
+Yes, implementation assistance is available for all customers. Our implementation team will help you set up your account, configure settings, import data, and train your team. Implementation timelines vary based on company size and complexity, but most companies are up and running within 2-4 weeks. Enterprise customers receive dedicated implementation managers and faster timelines.
+
+MISCELLANEOUS
+
+Can I try the platform before purchasing?
+Yes, we offer a 14-day free trial with full access to all features. No credit card is required to start your trial. During the trial, you can add up to 10 employees and test all functionality. Our sales team can provide a personalized demo if you'd like to see specific features. At the end of the trial, you can choose to subscribe or your account will be automatically deactivated. Trial data can be preserved if you decide to subscribe.
+
+Do you offer discounts for non-profits?
+Yes, we offer a 25% discount for registered non-profit organizations. To qualify, you'll need to provide proof of non-profit status. Educational institutions also receive special pricing. Contact our sales team at sales@hrsaasplatform.com to learn more about non-profit and educational discounts. These discounts apply to all subscription plans and can be combined with annual billing discounts.
+
+What happens if I exceed my employee limit?
+If you exceed your plan's employee limit, you'll receive a notification and be prompted to upgrade your plan. You have a 7-day grace period to upgrade before access restrictions are applied. During the grace period, you can continue adding employees, but you'll see upgrade prompts. If you don't upgrade, you won't be able to add new employees until you upgrade or remove existing ones to stay within your limit.
+
+Can I customize the platform branding?
+Yes, branding customization is available for Professional and Enterprise plans. You can upload your company logo, customize colors, and add custom domain names. Enterprise customers can also customize email templates, remove our branding, and add custom fields throughout the platform. Branding changes take effect immediately and apply to all user interfaces, including the mobile app. Custom domains require DNS configuration, which our support team can assist with.
+
+Do you offer white-label solutions?
+White-label solutions are available for Enterprise customers who want to rebrand the platform completely. This includes custom domain names, complete branding removal, customized email templates, and API access for deeper integration. White-label solutions require custom contracts and may have additional setup fees. Contact our sales team to discuss white-label options.
+
+What languages are supported?
+The platform is currently available in English, Spanish, French, German, and Portuguese. Additional languages can be added for Enterprise customers. The user interface, email notifications, and reports can be localized. Employees can select their preferred language in their profile settings, and the interface will display in that language.
+
+Can I use the platform internationally?
+Yes, the platform supports international operations with multi-currency support, multiple time zones, and country-specific compliance features. Payroll can be processed in different currencies, and the system handles international tax requirements. However, full compliance with local regulations may require additional configuration or custom development for Enterprise customers.
+
+How do I provide feedback or request features?
+Feedback and feature requests can be submitted through the Help Center, by emailing feedback@hrsaasplatform.com, or by contacting your account manager. We regularly review feedback and prioritize feature development based on customer needs. Enterprise customers can request custom features, which may be developed as part of their contract or as paid custom development projects.
+
+What is your roadmap for new features?
+We release new features and improvements monthly. Major feature releases are announced in advance, and customers receive detailed release notes. Our product roadmap is influenced by customer feedback, industry trends, and regulatory requirements. Enterprise customers can request preview access to upcoming features and provide input on development priorities.
