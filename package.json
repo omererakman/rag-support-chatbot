@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "description": "RAG Support Chatbot using LangChain",
-  "main": "dist/index.js",
+  "bin": {
+    "rag-index": "dist/src/index.js",
+    "rag-query": "dist/src/query.js"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
