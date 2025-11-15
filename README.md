@@ -29,8 +29,49 @@ A production-ready Retrieval-Augmented Generation (RAG) support chatbot built wi
 
 - **Node.js** 22+
 - **npm**
-- **ChromaDB** (optional, for production) - Can use in-memory store for development
 - **OpenAI API Key** - Required for LLM and embeddings
+- **Vector Store** - Choose one:
+  - **ChromaDB** (suggested) - See setup instructions below
+  - **Memory** (alternative) - No additional setup required, uses in-memory store with disk persistence
+
+### ChromaDB Setup
+
+ChromaDB is the recommended vector store. You can set it up using Docker Compose or Docker directly:
+
+**Using Docker Compose (recommended):**
+```bash
+# Start ChromaDB using Docker Compose
+docker-compose up -d
+
+# Or start in foreground to see logs
+docker-compose up
+
+# Stop ChromaDB
+docker-compose down
+
+# Stop and remove volumes (clears all data)
+docker-compose down -v
+```
+
+The `docker-compose.yml` file includes:
+- Persistent data storage
+- Health checks for monitoring
+- Automatic restart on failure
+- Port mapping (8000:8000)
+
+**Alternative: Using Docker directly**
+```bash
+docker run -p 8000:8000 chromadb/chroma
+```
+
+Then configure in `.env`:
+```env
+VECTOR_STORE_TYPE=chromadb
+CHROMA_HOST=localhost
+CHROMA_PORT=8000
+```
+
+**Note:** If you prefer to use the memory vector store instead, set `VECTOR_STORE_TYPE=memory` in your `.env` file. The memory store persists data to disk in `storage/memory-vector-store.json` for later query usage.
 
 ## 🛠️ Installation
 
@@ -575,39 +616,6 @@ The compiled JavaScript will be in the `dist/` directory. Use a process manager 
 node dist/src/index.js ./data
 ```
 
-### ChromaDB Setup
-
-```bash
-# Start ChromaDB using Docker Compose (recommended)
-docker-compose up -d
-
-# Or start in foreground to see logs
-docker-compose up
-
-# Stop ChromaDB
-docker-compose down
-
-# Stop and remove volumes (clears all data)
-docker-compose down -v
-```
-
-The `docker-compose.yml` file includes:
-- Persistent data storage
-- Health checks for monitoring
-- Automatic restart on failure
-- Port mapping (8000:8000)
-
-**Alternative: Using Docker directly**
-```bash
-docker run -p 8000:8000 chromadb/chroma
-```
-
-Then configure in `.env`:
-```env
-VECTOR_STORE_TYPE=chromadb
-CHROMA_HOST=localhost
-CHROMA_PORT=8000
-```
 
 ## 📊 Observability
 
