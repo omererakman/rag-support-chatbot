@@ -169,7 +169,6 @@ The system uses OpenAI's `text-embedding-3-small` model (configurable) for the f
 **Model Choice Rationale:**
 - **text-embedding-3-small**: Default choice - best balance of quality, speed, and cost
 - **text-embedding-3-large**: Available for higher quality requirements (higher cost)
-- **ada-002**: Legacy option (deprecated in favor of v3 models)
 
 **Future Extensibility:**
 The architecture supports adding other embedding providers (e.g., Cohere, HuggingFace) through the factory pattern without changing core logic.
@@ -414,7 +413,7 @@ Confidence is included in response metadata:
 - `score`: Overall confidence score (0-1)
 - `level`: Confidence level enum (high/medium/low/very_low)
 - `factors`: Breakdown of individual factor scores (optional, configurable)
-- `explanation`: Human-readable explanation (always included)
+- `explanation`: Human-readable explanation
 
 ### Configuration
 
@@ -462,7 +461,6 @@ The system implements a multi-layered safety approach to protect against various
 
 **Categories Detected:**
 - Hate speech, harassment, violence
-- Sexual content
 - Self-harm content
 - Illegal activities
 

@@ -3,7 +3,6 @@ import { logger } from '../logger.js';
 
 function getEncodingForModel(model: string) {
   try {
-    // tiktoken accepts model names as strings, but TypeScript types may be strict
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return encoding_for_model(model as any);
   } catch (error) {

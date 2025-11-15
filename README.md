@@ -5,7 +5,7 @@ A production-ready Retrieval-Augmented Generation (RAG) support chatbot built wi
 ## 🚀 Features
 
 ### Core Capabilities
-- **Modern LangChain Architecture** - Built with LCEL (LangChain Expression Language) for composable, type-safe chains
+- **Modern LangChain Architecture** - Built with LangChain, type-safe chains
 - **Multiple Retrieval Strategies** - Similarity search, MMR (Maximum Marginal Relevance), and Contextual Compression
 - **Flexible Vector Stores** - ChromaDB for production and memory store with disk persistence for development
 - **Type-Safe** - Full TypeScript with Zod schema validation throughout
@@ -564,12 +564,10 @@ The compiled JavaScript will be in the `dist/` directory. Use a process manager 
 
 **With Node directly:**
 ```bash
-node dist/index.js ./data
+node dist/src/index.js ./data
 ```
 
 ### ChromaDB Setup
-
-For production, you'll need a running ChromaDB instance. The recommended way is using Docker Compose:
 
 ```bash
 # Start ChromaDB using Docker Compose (recommended)
@@ -586,7 +584,7 @@ docker-compose down -v
 ```
 
 The `docker-compose.yml` file includes:
-- Persistent data storage (survives container restarts)
+- Persistent data storage
 - Health checks for monitoring
 - Automatic restart on failure
 - Port mapping (8000:8000)
