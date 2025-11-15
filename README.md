@@ -246,6 +246,12 @@ The response includes metadata about the search process, timing information, tok
 }
 ```
 
+### Sample Queries
+
+The `outputs/sample_queries.json` file contains example query responses demonstrating various scenarios:
+- Successful queries with full responses, metadata, and confidence scores
+- Error cases showing safety checks (e.g., PII detection and redaction)
+
 ## ⚙️ Configuration
 
 All configuration is done via environment variables. See `.env.example` for all available options.
@@ -475,6 +481,8 @@ rag-support-chatbot/
 │       └── index.ts                # Type exports
 ├── data/                           # Source documents (example)
 │   └── faq_document.txt
+├── outputs/                        # Output files
+│   └── sample_queries.json         # Example query responses
 ├── storage/                        # Runtime data storage (gitignored)
 │   └── memory-vector-store.json    # Persisted memory vector store data (created at runtime)
 ├── tests/                          # Test suite

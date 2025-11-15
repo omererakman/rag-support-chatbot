@@ -1,0 +1,369 @@
+[
+  {
+    "user_question": "What are your pricing plans?",
+    "system_answer": "We offer three main pricing tiers: \n\n1. **Starter Plan**: $29 per month, includes up to 10 employees, basic HR features, and email support.\n2. **Professional Plan**: $79 per month, includes up to 50 employees, advanced features, priority support, and API access.\n3. **Enterprise Plan**: Custom-priced, includes unlimited employees, all features, dedicated support, and custom integrations.\n\nAll plans come with a 14-day free trial with no credit card required.",
+    "chunks_related": [
+      {
+        "id": "chunk-0",
+        "text": "BILLING AND SUBSCRIPTIONS\n\nWhat are your pricing plans?\nWe offer three main pricing tiers: Starter, Professional, and Enterprise. The Starter plan is $29 per month and includes up to 10 employees, basic HR features, and email support. The Professional plan is $79 per month and includes up to 50 employees, advanced features, priority support, and API access. The Enterprise plan is custom-priced and includes unlimited employees, all features, dedicated support, and custom integrations. All plans include a 14-day free trial with no credit card required.",
+        "index": 0,
+        "startChar": 3206,
+        "endChar": 3762,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "startChar": 3206,
+          "endCharStr": "3762",
+          "startCharStr": "3206",
+          "endChar": 3762,
+          "loc": {
+            "lines": {
+              "from": 28,
+              "to": 31
+            }
+          },
+          "similarityScore": 0.81882113,
+          "score": 0.81882113
+        }
+      },
+      {
+        "id": "chunk-1",
+        "text": "How does billing work?\nBilling occurs monthly or annually, depending on your subscription plan. Monthly plans are billed on the same date each month that you signed up. Annual plans are billed once per year and offer a 20% discount compared to monthly billing. We accept all major credit cards and ACH transfers for Enterprise customers. Invoices are automatically generated and sent to your registered email address.",
+        "index": 1,
+        "startChar": 3764,
+        "endChar": 4181,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "startCharStr": "3764",
+          "startChar": 3764,
+          "endCharStr": "4181",
+          "endChar": 4181,
+          "loc": {
+            "lines": {
+              "from": 33,
+              "to": 34
+            }
+          },
+          "similarityScore": 1.0349474,
+          "score": 1.0349474
+        }
+      },
+      {
+        "id": "chunk-2",
+        "text": "Is there a cost for data migration?\nData migration assistance is included with Enterprise plans. For Starter and Professional plans, basic migration tools and templates are provided at no cost. If you need extensive assistance with complex migrations, migration services are available for an additional fee. Contact our sales team to discuss your migration needs and pricing.\n\nMULTI-LOCATION SUPPORT\n\nCan I manage multiple locations?\nYes, the platform supports multiple locations, branches, or offices. Each location can have its own settings for pay rates, policies, schedules, and reporting. Employees can be assigned to specific locations, and you can run reports by location or across all locations. Location-based features help ensure compliance with local regulations and policies.",
+        "index": 2,
+        "startChar": 46460,
+        "endChar": 47247,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "startCharStr": "46460",
+          "endCharStr": "47247",
+          "startChar": 46460,
+          "endChar": 47247,
+          "loc": {
+            "lines": {
+              "from": 354,
+              "to": 360
+            }
+          },
+          "similarityScore": 1.0723655,
+          "score": 1.0723655
+        }
+      },
+      {
+        "id": "chunk-3",
+        "text": "Can I upgrade or downgrade my plan?\nYes, you can change your plan at any time from the Billing page in Settings. Upgrades take effect immediately, and you'll be charged a prorated amount for the remainder of the billing cycle. Downgrades take effect at the start of your next billing cycle. If you downgrade, you may lose access to certain features, so please review the plan differences before making changes.",
+        "index": 3,
+        "startChar": 4695,
+        "endChar": 5105,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "startChar": 4695,
+          "endCharStr": "5105",
+          "startCharStr": "4695",
+          "endChar": 5105,
+          "loc": {
+            "lines": {
+              "from": 39,
+              "to": 40
+            }
+          },
+          "similarityScore": 1.102253,
+          "score": 1.102253
+        }
+      },
+      {
+        "id": "chunk-4",
+        "text": "Can I pay annually instead of monthly?\nYes, annual billing is available for all plans and offers a 20% discount compared to monthly billing. To switch to annual billing, go to Settings > Billing > Subscription and select \"Annual Billing.\" Your next payment will be for the full year, and you'll be billed annually going forward. You can switch back to monthly billing at any time, but the change will take effect at the start of your next billing cycle.",
+        "index": 4,
+        "startChar": 5574,
+        "endChar": 6027,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "endCharStr": "6027",
+          "endChar": 6027,
+          "startChar": 5574,
+          "startCharStr": "5574",
+          "loc": {
+            "lines": {
+              "from": 45,
+              "to": 46
+            }
+          },
+          "similarityScore": 1.1173105,
+          "score": 1.1173105
+        }
+      }
+    ],
+    "metadata": {
+      "searchMethod": "similarity",
+      "topK": 5,
+      "model": "gpt-4o-mini",
+      "searchTimeMs": 248,
+      "tokenUsage": {
+        "promptTokens": 580,
+        "completionTokens": 104,
+        "totalTokens": 684
+      },
+      "timings": {
+        "safetyCheckMs": 405,
+        "retrievalMs": 248,
+        "llmGenerationMs": 2055,
+        "totalMs": 2708
+      },
+      "cache": {
+        "retrievalHit": false,
+        "llmHit": false
+      },
+      "confidence": {
+        "score": 0.9873174791000001,
+        "level": "high",
+        "factors": {
+          "retrieval": 0.963764226,
+          "relevance": 1,
+          "coverage": 1,
+          "answerQuality": 1
+        },
+        "explanation": "highly relevant documents"
+      }
+    },
+    "safety": {
+      "safe": true,
+      "moderationFlagged": false,
+      "injectionDetected": false,
+      "piiDetected": false,
+      "flaggedCategories": []
+    }
+  },
+  {
+    "user_question": "How do I add a new employee?",
+    "system_answer": "To add a new employee, navigate to the Employees section and click \"Add Employee.\" Fill in the required information, including name, email, job title, department, and start date. Each employee will receive an invitation email to set up their profile and password.",
+    "chunks_related": [
+      {
+        "id": "chunk-0",
+        "text": "EMPLOYEE MANAGEMENT\n\nHow do I add employees to the system?\nTo add employees, navigate to the Employees section and click \"Add Employee.\" Fill in the required information including name, email, job title, department, and start date. You can add employees individually or use our bulk import feature to upload multiple employees via CSV file. Each employee will receive an invitation email to set up their profile and password. Employees can be added at any time, and their access begins immediately upon invitation acceptance.",
+        "index": 0,
+        "startChar": 6839,
+        "endChar": 7364,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "startChar": 6839,
+          "endCharStr": "7364",
+          "startCharStr": "6839",
+          "endChar": 7364,
+          "loc": {
+            "lines": {
+              "from": 54,
+              "to": 57
+            }
+          },
+          "similarityScore": 0.58923256,
+          "score": 0.58923256
+        }
+      },
+      {
+        "id": "chunk-1",
+        "text": "How do I bulk import employees?\nBulk import is available from the Employees section. Click \"Import Employees\" and download our CSV template. Fill in the required fields for all employees you want to import, then upload the completed file. The system will validate the data and show you any errors before importing. You can import up to 1,000 employees at once. Each imported employee will receive an invitation email to complete their profile setup.",
+        "index": 1,
+        "startChar": 8789,
+        "endChar": 9238,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "startCharStr": "8789",
+          "startChar": 8789,
+          "endCharStr": "9238",
+          "endChar": 9238,
+          "loc": {
+            "lines": {
+              "from": 68,
+              "to": 69
+            }
+          },
+          "similarityScore": 0.94573855,
+          "score": 0.94573855
+        }
+      },
+      {
+        "id": "chunk-2",
+        "text": "ONBOARDING AND OFFBOARDING\n\nHow does the onboarding process work?\nOur onboarding system allows you to create customizable onboarding checklists for new employees. When you add a new employee, you can assign them to an onboarding template that includes tasks like completing paperwork, setting up equipment, attending orientation, and meeting with team members. Tasks can be assigned to the new employee, their manager, HR, or other team members. Progress is tracked automatically, and reminders are sent for incomplete tasks.",
+        "index": 2,
+        "startChar": 11163,
+        "endChar": 11688,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "startCharStr": "11163",
+          "endCharStr": "11688",
+          "endChar": 11688,
+          "startChar": 11163,
+          "loc": {
+            "lines": {
+              "from": 83,
+              "to": 86
+            }
+          },
+          "similarityScore": 0.9826723,
+          "score": 0.9826723
+        }
+      },
+      {
+        "id": "chunk-3",
+        "text": "What documents can new employees complete online?\nNew employees can complete I-9 forms, W-4 tax forms, direct deposit authorization, emergency contact forms, benefits enrollment, company policy acknowledgments, and custom forms you create. All documents are stored securely and can be signed electronically. Completed forms are automatically routed to the appropriate departments for processing. You can customize which documents are required for each role or department.",
+        "index": 3,
+        "startChar": 11690,
+        "endChar": 12161,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "startCharStr": "11690",
+          "startChar": 11690,
+          "endCharStr": "12161",
+          "endChar": 12161,
+          "loc": {
+            "lines": {
+              "from": 88,
+              "to": 89
+            }
+          },
+          "similarityScore": 1.0202165,
+          "score": 1.0202165
+        }
+      },
+      {
+        "id": "chunk-4",
+        "text": "How do I remove an employee?\nTo remove an employee, go to the Employees section, select the employee, and click \"Remove Employee.\" You'll be asked to specify a removal date and reason. The employee's access will be revoked on the specified date, but their historical data will be retained for compliance purposes. You can also archive employees instead of removing them, which preserves all data but removes active access.",
+        "index": 4,
+        "startChar": 7366,
+        "endChar": 7788,
+        "sourceId": "rag-support-chatbot/data/faq_document.txt",
+        "metadata": {
+          "startCharStr": "7366",
+          "startChar": 7366,
+          "endCharStr": "7788",
+          "endChar": 7788,
+          "loc": {
+            "lines": {
+              "from": 59,
+              "to": 60
+            }
+          },
+          "similarityScore": 1.0451872,
+          "score": 1.0451872
+        }
+      }
+    ],
+    "metadata": {
+      "searchMethod": "similarity",
+      "topK": 5,
+      "model": "gpt-4o-mini",
+      "searchTimeMs": 527,
+      "tokenUsage": {
+        "promptTokens": 522,
+        "completionTokens": 52,
+        "totalTokens": 574
+      },
+      "timings": {
+        "safetyCheckMs": 415,
+        "retrievalMs": 527,
+        "llmGenerationMs": 1901,
+        "totalMs": 2843
+      },
+      "cache": {
+        "retrievalHit": false,
+        "llmHit": false
+      },
+      "confidence": {
+        "score": 0.9662350387,
+        "level": "high",
+        "factors": {
+          "retrieval": 0.9035286819999999,
+          "relevance": 1,
+          "coverage": 1,
+          "answerQuality": 1
+        },
+        "explanation": "highly relevant documents"
+      }
+    },
+    "safety": {
+      "safe": true,
+      "moderationFlagged": false,
+      "injectionDetected": false,
+      "piiDetected": false,
+      "flaggedCategories": []
+    }
+  },
+  {
+    "error": {
+      "code": "SAFETY_CHECK_ERROR",
+      "statusCode": 400,
+      "metadata": {
+        "safety": {
+          "safe": false,
+          "moderationResult": {
+            "flagged": false,
+            "categories": {
+              "harassment": false,
+              "harassment/threatening": false,
+              "sexual": false,
+              "hate": false,
+              "hate/threatening": false,
+              "illicit": false,
+              "illicit/violent": false,
+              "self-harm/intent": false,
+              "self-harm/instructions": false,
+              "self-harm": false,
+              "sexual/minors": false,
+              "violence": false,
+              "violence/graphic": false
+            },
+            "category_scores": {
+              "harassment": 0.0000295957113513077,
+              "harassment/threatening": 0.000005475976980449466,
+              "sexual": 0.000013552078562406772,
+              "hate": 0.000010391067562761452,
+              "hate/threatening": 0.0000010783312222985275,
+              "illicit": 0.0945485594056896,
+              "illicit/violent": 0.000020662982488383408,
+              "self-harm/intent": 0.00021559222163915307,
+              "self-harm/instructions": 9.818326983657703e-7,
+              "self-harm": 0.00046350496863962825,
+              "sexual/minors": 0.000005920916517463734,
+              "violence": 0.000021654404989510328,
+              "violence/graphic": 0.0000037636447180974406
+            }
+          },
+          "injectionDetected": false,
+          "piiDetected": {
+            "detected": true,
+            "types": {
+              "email": [
+                "john.doe@example.com"
+              ]
+            }
+          },
+          "sanitizedQuestion": "How do I reset my password? My email is [EMAIL_REDACTED]",
+          "timingMs": 366
+        }
+      },
+      "name": "SafetyCheckError"
+    },
+    "user_question": "How do I reset my password? My email is john.doe@example.com"
+  }
+]
