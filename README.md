@@ -7,7 +7,7 @@ A production-ready Retrieval-Augmented Generation (RAG) support chatbot built wi
 ### Core Capabilities
 - **Modern LangChain Architecture** - Built with LangChain, type-safe chains
 - **Multiple Retrieval Strategies** - Similarity search, MMR (Maximum Marginal Relevance), and Contextual Compression
-- **Flexible Vector Stores** - ChromaDB for production and memory store with disk persistence for development
+- **Flexible Vector Stores** - ChromaDB or memory store with disk persistence
 - **Type-Safe** - Full TypeScript with Zod schema validation throughout
 - **Structured Responses** - Rich JSON responses with source citations, metadata, safety information, and confidence scores
 - **Answer Confidence Scoring** - Multi-factor confidence scoring to assess answer reliability
@@ -96,7 +96,7 @@ CHROMA_PORT=8000
    OPENAI_API_KEY=your-api-key-here
    LLM_MODEL=gpt-4o-mini
    EMBEDDING_MODEL=text-embedding-3-small
-   VECTOR_STORE_TYPE=chromadb  # or 'memory' for development
+   VECTOR_STORE_TYPE=chromadb  # or 'memory'
    ```
 
 ## 🎯 Quick Start

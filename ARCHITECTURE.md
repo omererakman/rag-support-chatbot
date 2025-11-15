@@ -97,7 +97,7 @@ The implementation extends the base splitter to track character positions (`star
 
 The system supports two vector store implementations, each optimized for different use cases:
 
-#### 1. ChromaDB (Production)
+#### 1. ChromaDB (Production & Development)
 
 **Why ChromaDB?**
 
@@ -113,7 +113,7 @@ The system supports two vector store implementations, each optimized for differe
 - Optional SSL and API key authentication for security
 - Health checks for monitoring and reliability
 
-#### 2. Memory Vector Store (Development)
+#### 2. Memory Vector Store (Development & Testing)
 
 **Why Memory Store?**
 
