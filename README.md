@@ -29,6 +29,7 @@ A production-ready Retrieval-Augmented Generation (RAG) support chatbot built wi
 
 - **Node.js** 22+
 - **npm**
+- **Windows users** - Git Bash is recommended for Windows users to run bash commands seamlessly
 - **OpenAI API Key** - Required for LLM and embeddings
 - **Vector Store** - Choose one:
   - **ChromaDB** (suggested) - See setup instructions below
